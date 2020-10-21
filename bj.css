@@ -1,0 +1,68 @@
+.btn-primary, .btn-warning, .btn-danger {
+    font-size: 28px;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.btn-primary {
+        background-color: blue;
+}
+
+.btn-warning {
+        background-color: yellow;
+}
+
+.btn-danger {
+        background-color: red;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    background-image: url(casino-background-260nw-208627783.jpg);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 2px solid black;
+}
+
+.flexbox-row-1, .flexbox-row-2, .flexbox-row-3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.flexbox-row-1 div {
+    border: 1px solid black;
+    height: 400px;
+    flex: 1;
+    color: white;
+}
+
+.flexbox-row-2 {
+    justify-content: center;    
+    padding: 5px;
+}
+
+.flexbox-row-3{
+        border: 1px solid black;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    font-size: 30px;
+    color: beige;
+}
+
+.flexbox-row-1 img {
+    padding: 10px;
+    height: 100;
+    width: 100;
+}
